@@ -7,8 +7,8 @@ clear
 # VARIABLES TO CHANGE   # M365x612603:ENTERPRISEPREMIUM is E5   # M365x612603:ENTERPRISEPACK is E3
 $skuid = "M365x612603:ENTERPRISEPREMIUM"
 
-# To pull the list and save it in a variable for the scrip
-$users = Get-Content -Path "C:\Users\keleal\OneDrive - Microsoft\Demos\PowerShell User Management\Script_Users.csv"
+# To pull the list and save it in a variable for the script containing only the UPN of the users to work with
+$users = Get-Content -Path "C:\Users\PowerShell User Management\FILENAME.csv"
 
 ###############################################################################
 
