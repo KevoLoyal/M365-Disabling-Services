@@ -8,7 +8,7 @@ clear
 $skuid = "M365x612603:ENTERPRISEPREMIUM"
 
 # To pull the list and save it in a variable for the script containing only the UPN of the users to work with
-$users = Get-Content -Path "C:\Users\PowerShell User Management\FILENAME.csv"
+$users = Get-Content -Path "C:\Users\PowerShell User Management\SampleSourceFile.csv"
 
 ###############################################################################
 
